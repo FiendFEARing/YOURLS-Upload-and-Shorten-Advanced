@@ -1192,6 +1192,6 @@ function upload_handle_frontend_upload() {
     }
 }
 
-echo "<!-- Upload plugin v" . UPLOAD_PLUGIN_VERSION . " loaded -->\n";
-echo "<!-- DEBUG: Plugin file loaded at " . date('Y-m-d H:i:s') . " -->\n";
+// echo "<!-- Upload plugin v" . UPLOAD_PLUGIN_VERSION . " loaded -->\n";
+// echo "<!-- DEBUG: Plugin file loaded at " . date('Y-m-d H:i:s') . " -->\n";
 ?>
