@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS `yourls_upload_files` (
   `expiration_date` datetime DEFAULT NULL,
   `uploaded_by` varchar(100) DEFAULT 'public',
   `download_count` int(11) DEFAULT 0,
+  `link_active` tinyint(1) NOT NULL DEFAULT 1,
   PRIMARY KEY (`id`),
   KEY `short_url` (`short_url`),
   KEY `expiration_date` (`expiration_date`),
